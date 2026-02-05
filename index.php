@@ -38,7 +38,12 @@
               <input type="text" id="Username" name="Username"><br>
               <label for="Password">Password</label>
               <input type="text" id="Password" name="Password"><br>
-              
+              <label for="role">Cargo:</label>
+              <select name="Role" id="Role">
+                <option value="">selecione uma opção...</option>
+                <option value="cliente">Cliente</option>
+                <option value="admin">Admin</option>
+            </select>
             </div>
             <div class="modal-footer">
               <button type="button" class="Close_1" data-dismiss="modal">Close</button>

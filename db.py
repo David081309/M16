@@ -14,7 +14,7 @@ def inicializar_bd():
     cnx.database = DB_NAME
 
     cur.execute("""
-        CREATE TABLE utilizadores (
+        CREATE TABLE IF NOT EXISTS utilizadores (
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 username VARCHAR(50),
                 password VARCHAR(255),
@@ -26,13 +26,13 @@ def inicializar_bd():
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 nome VARCHAR(100),
                 rua VARCHAR(255),
-                email VARCHAR(100),
+                email VARCHAR(100)
         )
     """)
     cur.execute("""
         CREATE TABLE IF NOT EXISTS tipos_eletronicos (
                 id INT AUTO_INCREMENT PRIMARY KEY,
-                nome VARCHAR(50),
+                nome VARCHAR(50)
         )
     """)
 
