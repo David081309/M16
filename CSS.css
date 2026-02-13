@@ -1,0 +1,104 @@
+table {
+    width: 100%;
+    border: black;
+    background-color: green;
+    size: 100px;
+}
+
+th {
+    color: white;
+}
+
+.test {
+    background-color: white;
+    color: green;
+    margin-top: 100px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente (opcional) */
+}
+
+.registo {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente (opcional) */
+    text-align: left;
+}
+
+
+.container-botao {
+
+    width: 100%;
+    text-align: center;
+    /* Centraliza o conteúdo inline/inline-block */
+    padding: 10px;
+    display: flex;
+  flex-direction: row-reverse;;
+    
+}
+
+.meu-botao {
+    width: 100%;
+    display: inline-block;
+    /* Permite padding e margin corretos */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.Mapa {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+
+}
+
+
+
+
+.Registro {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: green;
+    color: white;
+
+
+
+}
+
+.Login {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: green;
+    color: white;
+
+
+
+}
+
+.Contactos {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: green;
+    color: white;
+
+}
