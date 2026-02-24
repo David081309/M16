@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border: black;
+    background-color: green;
+    size: 100px;
+    
+}
+
+.Zero-lixo {
+    color: white;
+    float: inline-start;
+}
+
+.div_1 {
+    float: inline-end;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.Button_1{
+    border: none;
+    color: green;
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.titulo{
+    color: white;
+}
